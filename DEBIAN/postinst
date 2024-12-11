@@ -1,0 +1,102 @@
+#!/bin/sh
+
+SKINDIR='/usr/share/enigma2/Aglare-FHD-PLI'
+TMPDIR='/tmp'
+BOXMODEL=$(cat /etc/hostname)
+set -e
+echo "Supported Images are :"
+echo "1- OpenPLI develop , OpenPLI 9 , OpenPLI 10"
+echo "2- OBH 5.3 , 5.4 , 5.4.1 , 5.5"
+echo "3- OpenVIX 6.4 , 6.5 , 6.6 , 6,7"
+echo "4- NonSoloSat"
+echo "5- SatLodge"
+echo "6- TeamBlue 7.3 , 7.4 , 7.5"
+sleep 2
+echo "Identify your image ...."
+sleep 2
+if grep -qs -i "openbh" /etc/image-version; then
+    echo "You have Openbh image"
+	echo "Adjusting some files according to your image..."
+	mv $SKINDIR/image_logo/obh/imagelogo.png $SKINDIR
+	if [ -f /usr/share/enigma2/"${BOXMODEL}".png ] ; then
+		cp /usr/share/enigma2/"${BOXMODEL}".png $SKINDIR/boximage.png
+	else
+		cp /usr/share/enigma2/Aglare-FHD-PLI/main/boximage.png $SKINDIR/boximage.png
+	fi
+	
+elif grep -qs -i "openvix" /etc/image-version; then
+    echo "You have OpenVix image"
+	echo "Adjusting some files according to your image..."
+	mv $SKINDIR/image_logo/openvix/imagelogo.png $SKINDIR
+	if [ -f /usr/share/enigma2/"${BOXMODEL}".png ] ; then
+		cp /usr/share/enigma2/"${BOXMODEL}".png $SKINDIR/boximage.png
+	else
+		cp /usr/share/enigma2/Aglare-FHD-PLI/main/boximage.png $SKINDIR/boximage.png
+	fi
+	
+elif grep -qs -i "openpli" /etc/issue; then
+    echo "You have OpenPli image"
+	echo "Adjusting some files according to your image..."		
+	mv $SKINDIR/image_logo/openpli/imagelogo.png $SKINDIR
+	if [ -f /usr/share/enigma2/"${BOXMODEL}".png ] ; then
+		cp /usr/share/enigma2/"${BOXMODEL}".png $SKINDIR/boximage.png
+	else
+		cp /usr/share/enigma2/Aglare-FHD-PLI/main/boximage.png $SKINDIR/boximage.png
+	fi
+
+elif grep -qs -i "areadeltasat" /etc/issue; then
+    echo "You have areadeltasat image"
+	echo "Adjusting some files according to your image..."		
+	mv $SKINDIR/image_logo/openpli/imagelogo.png $SKINDIR
+	if [ -f /usr/share/enigma2/"${BOXMODEL}".png ] ; then
+		cp /usr/share/enigma2/"${BOXMODEL}".png $SKINDIR/boximage.png
+	else
+		cp /usr/share/enigma2/Aglare-FHD-PLI/main/boximage.png $SKINDIR/boximage.png
+	fi
+
+elif grep -qs -i "teamblue" /etc/issue; then
+    echo "You have TeamBlue image"
+	echo "Adjusting some files according to your image..."		
+	mv $SKINDIR/image_logo/teamblue/imagelogo.png $SKINDIR
+	if [ -f /usr/share/enigma2/"${BOXMODEL}".png ] ; then
+		cp /usr/share/enigma2/"${BOXMODEL}".png $SKINDIR/boximage.png
+	else
+		cp /usr/share/enigma2/Aglare-FHD-PLI/main/boximage.png $SKINDIR/boximage.png
+	fi
+
+elif grep -qs -i "nonsolosat" /etc/issue; then
+    echo "You have NonSoloSat image"
+	echo "Adjusting some files according to your image..."		
+	mv $SKINDIR/image_logo/nss/imagelogo.png $SKINDIR
+	if [ -f /usr/share/enigma2/"${BOXMODEL}".png ] ; then
+		cp /usr/share/enigma2/"${BOXMODEL}".png $SKINDIR/boximage.png
+	else
+		cp /usr/share/enigma2/Aglare-FHD-PLI/main/boximage.png $SKINDIR/boximage.png
+	fi
+	
+elif grep -qs -i "satlodge" /etc/issue; then
+    echo "You have SatLodge image"
+	echo "Adjusting some files according to your image..."		
+	mv $SKINDIR/image_logo/satlodge/imagelogo.png $SKINDIR
+	if [ -f /usr/share/enigma2/"${BOXMODEL}".png ] ; then
+		cp /usr/share/enigma2/"${BOXMODEL}".png $SKINDIR/boximage.png
+	else
+		cp /usr/share/enigma2/Aglare-FHD-PLI/main/boximage.png $SKINDIR/boximage.png
+	fi
+	
+else	
+    echo "even you do not have supported image , you can try Aglare-FHD-PLI"
+fi
+echo "removing some files.... "
+rm -rf $SKINDIR/image_logo  > /dev/null 2>&1
+rm -rf /control  > /dev/null 2>&1
+echo "enigma2-plugin-skins-aglare-fhd-pli was installed successfully "
+sleep 2
+set +e
+sleep 2
+echo ">>>>>>>>>>>>>>>>>>>DONE<<<<<<<<<<<<<<<<<<<<<"
+sleep 2
+echo ">>>>>>>>>Aglare-FHD-PLI Skin by MNASR<<<<<<<"
+sleep 2
+exit 0
+

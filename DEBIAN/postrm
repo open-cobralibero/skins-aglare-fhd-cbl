@@ -1,0 +1,13 @@
+#!/bin/sh
+echo "Removing Aglare-FHD-PLI..."
+rm -rf /usr/share/enigma2/Aglare-FHD-PLI  > /dev/null 2>&1
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/Aglare  > /dev/null 2>&1
+rm -r /usr/lib/enigma2/python/Components/Aglare* > /dev/null 2>&1
+rm -r /usr/lib/enigma2/python/Components/Converter/Aglare* > /dev/null 2>&1
+rm -r /usr/lib/enigma2/python/Components/Renderer/Aglare* > /dev/null 2>&1
+sleep 2
+echo "                                                          "
+echo "Aglare-FHD-PLI was removed successfully."
+echo "                                                    "
+sleep 2
+exit 0
