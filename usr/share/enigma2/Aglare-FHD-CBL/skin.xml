@@ -2731,7 +2731,7 @@ MultiContentEntryText(pos=(160,1), size=(700,100), font=0, flags=RT_HALIGN_LEFT|
   <screen name="QuitMainloopScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="background">
     <widget name="text" position="115,776" size="1690,150" font="Regular; 50" halign="center" backgroundColor="background" valign="center" transparent="1" zPosition="8" />
     <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99" />
-    <eLabel name="" position="1498,1000" size="400,80" backgroundColor="background" text="Edi by cobraliberosat" transparent="1" halign="center" foregroundColor="yellow" font="Regular; 34" />
+    <eLabel name="" position="750,1000" size="400,80" backgroundColor="background" text="Edi by cobraliberosat" transparent="1" halign="center" foregroundColor="yellow" font="Regular; 34" />
     <eLabel name="" position="211,244" size="1498,410" cornerRadius="60" backgroundColor="mcolor6" />
     <eLabel name="" position="260,264" size="1400,370" zPosition="1" text="Aglare-FHD-CBL" font="Regular; 100" halign="center" valign="center" backgroundColor="mcolor2" />
   </screen>
