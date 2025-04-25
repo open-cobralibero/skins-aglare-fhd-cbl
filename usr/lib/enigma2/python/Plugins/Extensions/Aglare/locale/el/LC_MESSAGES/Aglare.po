@@ -1,0 +1,387 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Aglare-FHD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-10 18:47+0800\n"
+"PO-Revision-Date: 2025-04-10 22:02+0300\n"
+"Last-Translator: giorbak <Greece>\n"
+"Language-Team: giorbak\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "Add"
+msgstr "Προσθήκη"
+
+msgid ""
+"Aglare update was done!!!\n"
+"Do you want to restart the GUI now?"
+msgstr ""
+"Η ενημέρωση του Aglare ολοκληρώθηκε!!!\n"
+"Θέλετε να κάνετε επανεκκίνηση του GUI τώρα;"
+
+msgid "Back"
+msgstr "Πίσω"
+
+msgid "Backdrop"
+msgstr "Σκηνικό"
+
+msgid "BebasNeue"
+msgstr ""
+
+msgid "Black"
+msgstr "Μαύρο"
+
+msgid "Blue"
+msgstr "Μπλε"
+
+msgid "Brown"
+msgstr "Καφέ"
+
+msgid "CD"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgid "ChannelSelection Style:"
+msgstr "Στυλ επιλογής καναλιών:"
+
+msgid "ChannelSelection_1_Poster"
+msgstr "Επιλογή καναλιών_1 αφίσα"
+
+msgid "ChannelSelection_4_Posters"
+msgstr "Επιλογή καναλιών_4 αφίσες"
+
+msgid "ChannelSelection_6_Posters"
+msgstr "Επιλογή καναλιών_6 αφίσες"
+
+msgid "ChannelSelection_BackDrop_H"
+msgstr "Επιλογή καναλιών_Οριζόντιο σκηνικό"
+
+msgid "ChannelSelection_BackDrop_V"
+msgstr "Επιλογή καναλιών_Κάθετο σκηνικό"
+
+msgid "ChannelSelection_NO_Posters"
+msgstr "Επιλογή καναλιών_Χωρίς αφίσες"
+
+msgid "ChannelSelection_NO_Posters_NO_Picon"
+msgstr "Επιλογή καναλιών_Χωρίς αφίσες_Χωρίς Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "Επιλογή καναλιών_big mini tv"
+
+msgid "City"
+msgstr "Πόλη"
+
+msgid "Color Style:"
+msgstr "Στυλ χρωμάτων:"
+
+msgid "Customization tool for Aglare-FHD Skin"
+msgstr "Εργαλείο προσαρμογής για το θέμα Aglare-FHD"
+
+msgid "Default"
+msgstr "Προεπιλογή"
+
+msgid "Delete"
+msgstr "Διαγραφή"
+
+msgid "Do you want to save the changes?"
+msgstr "Θέλετε να αποθηκεύσετε τις αλλαγές;"
+
+msgid "Download in progress..."
+msgstr "Λήψη σε εξέλιξη..."
+
+msgid "Downloading Aglare..."
+msgstr "Γίνεται λήψη του Aglare..."
+
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+msgid "Error by processing the skin file: {}"
+msgstr "Σφάλμα κατά την επεξεργασία του αρχείου θέματος: {}"
+
+msgid "Error downloading files!"
+msgstr "Σφάλμα κατά τη λήψη των αρχείων!"
+
+msgid "EventView Style:"
+msgstr "Στυλ προβολής προγραμμάτων:"
+
+msgid "EventView_7_Posters"
+msgstr "Προβολή προγραμμάτων_7 αφίσες"
+
+msgid "EventView_NO_Posters"
+msgstr "Προβολή προγραμμάτων_Χωρίς αφίσες"
+
+msgid "Exit"
+msgstr "Έξοδος"
+
+msgid "File Commander - Addon"
+msgstr ""
+
+msgid ""
+"GUI needs a restart to apply a new skin.\n"
+"Do you want to Restart the GUI now?"
+msgstr ""
+"Πρέπει να γίνει επανεκκίνηση του GUI για να εφαρμοστεί το νέο θέμα.\n"
+"Θέλετε να κάνετε επανεκκίνηση του GUI τώρα;"
+
+msgid "Green"
+msgstr "Πράσινο"
+
+msgid "Green2"
+msgstr "Πράσινο2"
+
+msgid "Greta"
+msgstr ""
+
+msgid "HandelGotD"
+msgstr ""
+
+msgid "Import Api Key OMDB from /tmp/omdbkey.txt?"
+msgstr "Εισαγωγή κλειδιού Api OMDB από το /tmp/omdbkey.txt;"
+
+msgid "Import Api Key TMDB from /tmp/tmdbkey.txt?"
+msgstr "Εισαγωγή κλειδιού Api TMDB από το /tmp/tmdbkey.txt;"
+
+msgid "Info..."
+msgstr "Πληροφορίες..."
+
+msgid "InfoBar Date:"
+msgstr "Ημερομηνία μπάρας πληροφοριών:"
+
+msgid "InfoBar PosterX:"
+msgstr "Αφίσες μπάρας πληροφοριών:"
+
+msgid "InfoBar Style:"
+msgstr "Στυλ μπάρας πληροφοριών:"
+
+msgid "InfoBar Weather:"
+msgstr "Καιρός μπάρας πληροφοριών:"
+
+msgid "InfoBar Xtraevent:"
+msgstr "Έξτρα πρόγραμμα μπάρας πληροφοριών:"
+
+msgid "Infobar_Date"
+msgstr "Μπάρα πληροφοριών_Ημερομηνία"
+
+msgid "Infobar_NO_Date"
+msgstr "Μπάρα πληροφοριών_Χωρίς ημερομηνία"
+
+msgid "Infobar_NO_Weather"
+msgstr "Μπάρα πληροφοριών_Χωρίς καιρό"
+
+msgid "Infobar_Weather"
+msgstr "Μπάρα πληροφοριών_Καιρός"
+
+msgid "Installing updates!"
+msgstr "Εγκατάσταση ενημερώσεων!"
+
+msgid "KhalidArtboldRegular"
+msgstr ""
+
+msgid "Load OMDB Apikey from /tmp/omdbkey.txt"
+msgstr "Φόρτωση OMDB Apikey από /tmp/omdbkey.txt"
+
+msgid "Load TMDB Apikey from /tmp/tmdbkey.txt"
+msgstr "Φόρτωση TMDB Apikey από /tmp/tmdbkey.txt"
+
+msgid "Location code"
+msgstr "Κωδικός τοποθεσίας"
+
+msgid "MSN location search result"
+msgstr "Αποτέλεσμα αναζήτησης τοποθεσίας MSN"
+
+msgid "MV Boli"
+msgstr ""
+
+msgid "Magenta"
+msgstr "Ματζέντα"
+
+msgid "Missing %s !"
+msgstr "Το %s λείπει !"
+
+msgid "OFF"
+msgstr "Ανενεργό"
+
+msgid "OK"
+msgstr "Εντάξει"
+
+msgid "OMDB ApiKey Imported & Stored!"
+msgstr "Το OMDB ApiKey εισήχθη και αποθηκεύτηκε!"
+
+msgid "OMDB ApiKey is empty!"
+msgstr "Το OMDB ApiKey είναι κενό!"
+
+msgid "ON"
+msgstr "Ενεργό"
+
+msgid "Please enter a valid city name."
+msgstr "Παρακαλώ εισάγετε ένα έγκυρο όνομα πόλης."
+
+msgid "Please enter a valid location code for the city."
+msgstr "Παρακαλώ εισάγετε έναν έγκυρο κωδικό τοποθεσίας για την πόλη."
+
+msgid "Purple"
+msgstr "Μωβ"
+
+msgid "Really delete this WeatherPlugin Entry?"
+msgstr "Θέλετε πραγματικά διαγράψτε αυτήν τη καταχώρηση WeatherPlugin;"
+
+msgid "Red"
+msgstr "Κόκκινο"
+
+msgid "Restart GUI now?"
+msgstr "Να γίνει επανεκκίνηση του GUI τώρα;"
+
+msgid "Save"
+msgstr "Αποθήκευση"
+
+msgid "Search Code"
+msgstr "Κωδικός αναζήτησης"
+
+msgid "SecondInfobar Posterx:"
+msgstr "Αφίσες 2ης μπάρας πληροφοριών:"
+
+msgid "SecondInfobar Style:"
+msgstr "Στυλ 2ης μπάρας πληροφοριών:"
+
+msgid "SecondInfobar Xtraevent:"
+msgstr "Έξτρα πρόγραμμα 2ης μπάρας πληροφοριών:"
+
+msgid "Segoe UI light"
+msgstr ""
+
+msgid "Select Your Font:"
+msgstr "Επιλογή γραμματοσειράς:"
+
+msgid "Server version:"
+msgstr "Έκδοση διακομιστή:"
+
+msgid "Settings Apikey Server"
+msgstr "Ρυθμίσεις διακομιστή Apikey"
+
+msgid "Settings OMDB APIKEY"
+msgstr "Ρυθμίσεις OMDB APIKEY"
+
+msgid "Settings TMDB ApiKey"
+msgstr "Ρυθμίσεις TMDB ApiKey"
+
+msgid "Setup Aglare for Aglare-FHD v.%s"
+msgstr "Ρύθμιση Aglare για το Aglare-FHD v.%s"
+
+msgid "Signup on OMDB and input free personal ApiKey"
+msgstr "Εγγραφείτε στο OMDB και εισάγετε δωρεάν προσωπικό ApiKey"
+
+msgid "Signup on TMDB and input free personal ApiKey"
+msgstr "Εγγραφείτε στο TMDB και εισάγετε δωρεάν προσωπικό ApiKey"
+
+msgid "Skin Style:"
+msgstr "Στυλ θέματος:"
+
+msgid "Style2"
+msgstr "Στυλ2"
+
+msgid "Style3"
+msgstr "Στυλ3"
+
+msgid "Style4"
+msgstr "Στυλ4"
+
+msgid "Style5 CD"
+msgstr "Στυλ5 CD"
+
+msgid "Support E2iplayer Skins:"
+msgstr "Υποστήριξη θεμάτων E2iplayer:"
+
+msgid "System"
+msgstr "Σύστημα"
+
+msgid "TMDB ApiKey Imported & Stored!"
+msgstr "Το TMDB ApiKey εισήχθη και αποθηκεύτηκε!"
+
+msgid "TMDB ApiKey is empty!"
+msgstr "Το TMDB ApiKey είναι κενό!"
+
+msgid ""
+"The update is available!\n"
+"\n"
+"Do you want to run the update now?"
+msgstr ""
+"Η ενημέρωση είναι διαθέσιμη!\n"
+"\n"
+"Θέλετε να εκτελέσετε την ενημέρωση τώρα;"
+
+msgid "Version installed:"
+msgstr "Εγκατεστημένη έκδοση:"
+
+msgid "VolumeBar Style:"
+msgstr "Στυλ μπάρας έντασης ήχου:"
+
+msgid "WeatherPlugin: Edit Entry"
+msgstr "WeatherPlugin: Επεξεργασία καταχώρησης"
+
+msgid "WeatherPlugin: List of Entries"
+msgstr "WeatherPlugin: Λίστα καταχωρήσεων"
+
+msgid "You have the current version Aglare!"
+msgstr "Έχετε την τρέχουσα έκδοση του Aglare!"
+
+msgid "You have version %s!!!"
+msgstr "Έχετε την έκδοση %s!!!"
+
+msgid "You need to enter a valid city name before you can search for the location code."
+msgstr "Πρέπει να εισάγετε ένα έγκυρο όνομα πόλης προτού να μπορέσετε να αναζητήσετε τον κωδικό τοποθεσίας."
+
+msgid ""
+"[Checkskin] This operation checks if the skin has its components (is not sure)..\n"
+"Do you really want to continue?"
+msgstr ""
+"[Checkskin] Αυτή η λειτουργία ελέγχει εάν το θέμα έχει τα συστατικά του (δεν είναι σίγουρο)..\n"
+"Θέλετε πραγματικά να συνεχίσετε;"
+
+msgid "imperial system"
+msgstr "Αγγλικό σύστημα"
+
+msgid "metric system"
+msgstr "Μετρικό σύστημα"
+
+msgid "play/show Files"
+msgstr "Αναπαραγωγή/εμφάνιση αρχείων"
+
+msgid "volume2"
+msgstr "Ένταση2"
+
+msgid "--------------------------( SKIN GENERAL SETUP )-----------------------"
+msgstr "--------------------------( ΓΕΝΙΚΕΣ ΡΥΘΜΙΣΕΙΣ ΘΕΜΑΤΟΣ )-----------------------"
+
+msgid "--------------------------( SKIN APIKEY SETUP )-----------------------"
+msgstr "--------------------------( ΡΥΘΜΙΣΗ APIKEY ΘΕΜΑΤΟΣ )-----------------------"
+
+msgid "API KEY SETUP:"
+msgstr "ΡΥΘΜΙΣΗ ΚΛΕΙΔΙΟΥ API:"
+
+msgid "TMDB API:"
+msgstr ""
+
+msgid "--Load TMDB Apikey"
+msgstr "--Φόρτωση TMDB Apikey"
+
+msgid "--Set TMDB Apikey"
+msgstr "--Ορισμός TMDB Apikey"
+
+msgid "OMDB API:"
+msgstr ""
+
+msgid "--Load OMDB Apikey"
+msgstr "--Φόρτωση OMDB Apikey"
+
+msgid "--Set OMDB Apikey"
+msgstr "--Ορισμός OMDB Apikey"
+
+msgid "Setup Aglare"
+msgstr ""
