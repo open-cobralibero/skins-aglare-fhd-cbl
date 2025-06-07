@@ -2178,6 +2178,7 @@ MultiContentEntryText(pos=(160,1), size=(700,100), font=0, flags=RT_HALIGN_LEFT|
     <eLabel name="" position="7,957" size="321,121" font="Regular; 34" backgroundColor="background" text="Welcome to ...            by Cobraliberosat" zPosition="2" transparent="1" halign="center" foregroundColor="yellow" />
     <ePixmap name="" position="724,853" size="550,155" pixmap="/usr/share/enigma2/Aglare-FHD-CBL/boximage.png" alphatest="on" scale="1" />
     <ePixmap pixmap="sf/welcome.png" position="0,0" size="1920,1080" scale="1" alphatest="blend" zPosition="1" transparent="1" />
+    <ePixmap pixmap="sf/logo.png" position="1670,924" size="220,132" scale="1" alphatest="blend" zPosition="2" />
   </screen>
   <screen name="EPGGrabber" position="0,0" size="1920,1080" title="ZIKO EPG GRABBER" backgroundColor="background" flags="wfNoBorder">
     <panel name="titletemp" />
