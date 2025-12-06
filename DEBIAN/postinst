@@ -1,0 +1,127 @@
+#!/bin/sh
+set -e  # Exit on first error
+SKINDIR='/usr/share/enigma2/Aglare-FHD-PLI'
+WCDIR='/usr/share/enigma2/Aglare-FHD-PLI/main/windowcolor'
+TMPDIR='/tmp'
+
+echo "Supported Images are : "
+echo "1- OpenPLI develop , OpenPLI 9 , OpenPLI 10 , OpenPLI 10.1"
+echo "2- OBH 5.3 , 5.4 , 5.4.1 , 5.5.x , 5.6"
+echo "3- OpenVIX 6.4 , 6.5 , 6.6 , 6,7 , 6.8"
+echo "4- NonSoloSat"
+echo "5- OpenTR"
+echo "6- SatLodge"
+echo "7- CobraliberoSat"
+echo "8- TeamBlue 7.3 , 7.4 , 7.5"
+echo "9- OpenPLI foxbob python 3.13"
+echo "10- Corvoboys"
+echo "11- TNAP"
+sleep 2
+
+# Copy Default window color
+echo "Copying Default window color..."
+cp "$WCDIR/w_Default/"* "$SKINDIR/window/"
+
+echo "Identify your image ...."
+sleep 2
+if grep -qs -i "openbh" /etc/image-version; then
+    echo "You have Openbh image"
+	echo "Adjusting some files according to your image..."
+	mv $SKINDIR/image_logo/obh/imagelogo.png $SKINDIR
+	mv $SKINDIR/image_logo/obh/top_logo.png $SKINDIR
+	mv $SKINDIR/image_logo/skin_templates.xml $SKINDIR
+	
+elif grep -qs -i "openvix" /etc/image-version; then
+    echo "You have OpenVix image"
+	echo "Adjusting some files according to your image..."
+	mv $SKINDIR/image_logo/openvix/imagelogo.png $SKINDIR
+	mv $SKINDIR/image_logo/openvix/top_logo.png $SKINDIR
+	mv $SKINDIR/image_logo/skin_templates.xml $SKINDIR
+
+elif grep -qs -i "openpli" /etc/issue; then
+    if grep -qs -i "GCC-15" /etc/issue; then
+        echo "You have OpenPli GCC-15.1 image"
+        echo "Adjusting some files according to your image..."		
+        mv $SKINDIR/image_logo/openplifoxbob/imagelogo.png $SKINDIR
+        mv $SKINDIR/image_logo/openplifoxbob/top_logo.png $SKINDIR
+        mv $SKINDIR/image_logo/skin_templates.xml $SKINDIR
+    else
+        echo "You have OpenPli image"
+        echo "Adjusting some files according to your image..."		
+        mv $SKINDIR/image_logo/openpli/imagelogo.png $SKINDIR
+        mv $SKINDIR/image_logo/openpli/top_logo.png $SKINDIR
+    fi
+
+elif grep -qs -i "foxbob" /etc/issue; then
+    echo "You have OpenPli foxbob image"
+	echo "Adjusting some files according to your image..."		
+	mv $SKINDIR/image_logo/openplifoxbob/imagelogo.png $SKINDIR
+	mv $SKINDIR/image_logo/openplifoxbob/top_logo.png $SKINDIR
+	mv $SKINDIR/image_logo/skin_templates.xml $SKINDIR
+	
+elif grep -qs -i "corvoboys" /etc/image-version; then
+    echo "You have CorvoBoys image"
+	echo "Adjusting some files according to your image..."
+	mv $SKINDIR/image_logo/corvoboys/imagelogo.png $SKINDIR
+	mv $SKINDIR/image_logo/corvoboys/top_logo.png $SKINDIR
+	mv $SKINDIR/image_logo/corvoboys/picon_default.png $SKINDIR
+	rm -rf $SKINDIR/spinner > /dev/null 2>&1
+	rm -rf $SKINDIR/picon_default.png  > /dev/null 2>&1
+	cp $SKINDIR/sf/little_logo.png $SKINDIR/picon_default.png
+	
+elif grep -qs -i "TNAP" /etc/issue; then
+    echo "You have TNAP image"
+	echo "Adjusting some files according to your image..."		
+	mv $SKINDIR/image_logo/tnap/imagelogo.png $SKINDIR
+	mv $SKINDIR/image_logo/tnap/top_logo.png $SKINDIR
+
+elif grep -qs -i "opentr" /etc/issue; then
+    echo "You have OpenTR image"
+	echo "Adjusting some files according to your image..."		
+	mv $SKINDIR/image_logo/opentr/imagelogo.png $SKINDIR
+	mv $SKINDIR/image_logo/opentr/top_logo.png $SKINDIR
+
+elif grep -qs -i "areadeltasat" /etc/issue; then
+    echo "You have areadeltasat image"
+	echo "Adjusting some files according to your image..."		
+	mv $SKINDIR/image_logo/openpli/imagelogo.png $SKINDIR
+	mv $SKINDIR/image_logo/openpli/top_logo.png $SKINDIR
+
+elif grep -qs -i "teamblue" /etc/issue; then
+    echo "You have TeamBlue image"
+	echo "Adjusting some files according to your image..."		
+	mv $SKINDIR/image_logo/teamblue/imagelogo.png $SKINDIR
+	mv $SKINDIR/image_logo/teamblue/top_logo.png $SKINDIR
+
+elif grep -qs -i "nonsolosat" /etc/issue; then
+    echo "You have NonSoloSat image"
+	echo "Adjusting some files according to your image..."		
+	mv $SKINDIR/image_logo/nss/imagelogo.png $SKINDIR
+	mv $SKINDIR/image_logo/nss/top_logo.png $SKINDIR
+	
+elif grep -qs -i "cobraliberosat" /etc/issue; then
+    echo "You have CobraliberoSat image"
+	echo "Adjusting some files according to your image..."		
+	mv $SKINDIR/image_logo/cobra/imagelogo.png $SKINDIR
+	cp /usr/share/enigma2/Aglare-FHD-PLI/main/top_logo.png $SKINDIR/top_logo.png
+	
+elif grep -qs -i "satlodge" /etc/issue; then
+    echo "You have SatLodge image"
+	echo "Adjusting some files according to your image..."		
+	mv $SKINDIR/image_logo/satlodge/imagelogo.png $SKINDIR
+	mv $SKINDIR/image_logo/satlodge/top_logo.png $SKINDIR
+	
+else	
+    echo "even you do not have supported image , you can try Aglare-FHD-PLI"
+fi
+echo "removing some files.... "
+rm -rf $SKINDIR/image_logo  > /dev/null 2>&1
+rm -rf /control  > /dev/null 2>&1
+echo "enigma2-plugin-skins-aglare-fhd-pli was installed successfully "
+
+sleep 2
+echo ">>>>>>>>>>>>>>>>>>>DONE<<<<<<<<<<<<<<<<<<<<<"
+sleep 2
+echo ">>>>>>>>>Aglare-FHD-PLI Skin by MNASR<<<<<<<"
+sleep 2
+exit 0
