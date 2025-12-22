@@ -143,6 +143,7 @@ MultiContentEntryText(pos = (830, 8), size = (30, 38),  font = 1, flags = RT_HAL
     <eLabel backgroundGradient="grdl,grdd,horizontal" cornerRadius="6" position="2,2" size="896,560" zPosition="-2" />
   </screen>
   <screen name="menu_mainmenu" position="0,0" size="1920,1080" title="Main menu" backgroundColor="black" flags="wfNoBorder">
+  <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
     <panel name="titletemp" />
     <panel name="menutemp" />
     <panel name="menulistpli" />
@@ -160,6 +161,7 @@ MultiContentEntryText(pos = (830, 8), size = (30, 38),  font = 1, flags = RT_HAL
     <ePixmap name="" position="1500,600" size="386,386" pixmap="imagelogo.png" alphatest="blend" zPosition="1" transparent="1" />
   </screen>
   <screen name="menu_system" position="0,0" size="1920,1080" title="Main menu" backgroundColor="black" flags="wfNoBorder">
+  <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
     <panel name="titletemp" />
     <panel name="menutemp" />
     <panel name="menulistpli" />
@@ -175,6 +177,7 @@ MultiContentEntryText(pos = (830, 8), size = (30, 38),  font = 1, flags = RT_HAL
     <eLabel backgroundColor="sidec2" cornerRadius="90" position="1600,788" size="500,180" />
   </screen>
   <screen name="menu_setup" position="0,0" size="1920,1080" title="Main menu" backgroundColor="background" flags="wfNoBorder">
+  <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
     <panel name="titletemp" />
     <panel name="menutemp" />
     <panel name="menulistpli" />
@@ -189,6 +192,7 @@ MultiContentEntryText(pos = (830, 8), size = (30, 38),  font = 1, flags = RT_HAL
     <eLabel backgroundColor="sidec2" cornerRadius="90" position="1600,788" size="500,180" />
   </screen>
   <screen name="menu_information" position="0,0" size="1920,1080" title="Main menu" backgroundColor="black" flags="wfNoBorder">
+  <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
     <panel name="titletemp" />
     <panel name="menutemp" />
     <panel name="menulistpli" />
@@ -205,6 +209,7 @@ MultiContentEntryText(pos = (830, 8), size = (30, 38),  font = 1, flags = RT_HAL
     <widget source="session.CurrentService" render="AglareBoxImage" position="1019,800" size="550,155" alphatest="on" scale="1" zPosition="99" />
   </screen>
   <screen name="menu_scan" position="0,0" size="1920,1080" title="Main menu" backgroundColor="black" flags="wfNoBorder">
+  <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
     <panel name="titletemp" />
     <panel name="menutemp" />
     <panel name="menulistpli" />
@@ -220,6 +225,7 @@ MultiContentEntryText(pos = (830, 8), size = (30, 38),  font = 1, flags = RT_HAL
     <eLabel name="" position="1838,1018" size="52,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="EXIT" />
   </screen>
   <screen name="menu_shutdown" position="0,0" size="1920,1080" title="Main menu" backgroundColor="black" flags="wfNoBorder">
+  <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
     <panel name="titletemp" />
     <panel name="menutemp" />
     <panel name="menulistpli" />
@@ -235,6 +241,7 @@ MultiContentEntryText(pos = (830, 8), size = (30, 38),  font = 1, flags = RT_HAL
     <eLabel name="" position="1838,1018" size="52,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="EXIT" />
   </screen>
   <screen name="menu_tv_selection" position="0,0" size="1920,1080" title="Main menu" backgroundColor="black" flags="wfNoBorder">
+  <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
     <panel name="titletemp" />
     <panel name="menutemp" />
     <panel name="menulistpli" />
@@ -250,6 +257,7 @@ MultiContentEntryText(pos = (830, 8), size = (30, 38),  font = 1, flags = RT_HAL
     <eLabel name="" position="1838,1018" size="52,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="EXIT" />
   </screen>
   <screen name="menu_network" position="0,0" size="1920,1080" title="Main menu" backgroundColor="black" flags="wfNoBorder">
+  <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
     <panel name="titletemp" />
     <panel name="menutemp" />
     <panel name="menulistpli" />
